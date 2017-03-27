@@ -1,0 +1,152 @@
+.topbar {
+  background-color: whitesmoke;
+  border-bottom: 2px solid #e1e1e1;
+  height: 50px;
+  padding-top: 5px;
+  margin-bottom: 20px; }
+  .topbar input {
+    width: 27%;
+    margin-top: 8px; }
+  .topbar ul {
+    display: inline;
+    padding-right: 0px;
+    padding-left: 0px; }
+  .topbar nav {
+    display: inline;
+    margin-right: 29%; }
+  .topbar li {
+    display: inline;
+    margin-right: 1%; }
+
+.nav-tabs {
+  display: inline; }
+  .nav-tabs #editProf {
+    background: linear-gradient(#f9f9f9, #e7e7e7);
+    border: 2px solid #dddddd;
+    float: right;
+    height: 25px;
+    width: 150px; }
+
+#topImg {
+  height: 20px;
+  width: 20px; }
+
+.fa-github {
+  font-size: 40px;
+  float: left;
+  margin-right: 1%; }
+
+.left #profilePic {
+  height: 171px;
+  width: 171px; }
+
+.left li {
+  display: block; }
+
+.occupation {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1; }
+
+.info {
+  border-bottom: 1px solid #f1f1f1; }
+
+.activity {
+  border-bottom: 1px solid #f1f1f1; }
+  .activity h2 {
+    color: #6794c4; }
+
+#followers,
+#stars,
+#following {
+  display: inline-block;
+  margin-right: 4%;
+  text-align: center; }
+
+#followersNum {
+  text-align: center; }
+
+#starNum {
+  text-align: center; }
+
+.organizations {
+  display: inline; }
+
+#orgList {
+  display: inline;
+  padding-left: 0px; }
+  #orgList img {
+    width: 54px;
+    height: 54px; }
+  #orgList li {
+    display: inline-block; }
+
+.events {
+  border-bottom: 1px solid #f1f1f1; }
+  .events #login {
+    display: inline;
+    color: #6794c4; }
+  .events #reponame {
+    color: #6794c4;
+    display: inline; }
+  .events #created_at {
+    display: inline; }
+  .events #ref {
+    color: #6794c4;
+    display: inline; }
+  .events #commits {
+    color: #6794c4;
+    display: inline; }
+  .events #sha {
+    display: inline; }
+
+#findRepo {
+  border: 2px solid #f1f1f1;
+  width: 230px; }
+
+#search {
+  border: 2px solid #f1f1f1;
+  background: linear-gradient(#f9f9f9, #e7e7e7); }
+
+.repoTopContainer {
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1; }
+
+.reposTopBar {
+  display: inline; }
+  .reposTopBar ul {
+    display: inline; }
+  .reposTopBar li {
+    display: inline;
+    color: #6794c4;
+    margin-right: 5px; }
+  .reposTopBar button#new {
+    display: inline;
+    margin-left: 16%;
+    width: 60px;
+    height: 35px;
+    background: linear-gradient(#83a754, #abd179);
+    border: none;
+    color: white; }
+
+.repos {
+  border-bottom: 1px solid #f1f1f1; }
+  .repos #name {
+    color: #6794c4;
+    display: inline;
+    margin-right: 35%; }
+  .repos #time {
+    color: darkgray; }
+  .repos #language {
+    color: #999da4;
+    display: inline;
+    float: right; }
+  .repos #stargazers {
+    color: #999da4;
+    display: inline;
+    float: right;
+    margin-left: 10px; }
+  .repos #forks {
+    color: #999da4;
+    display: inline;
+    float: right;
+    margin-left: 10px; }

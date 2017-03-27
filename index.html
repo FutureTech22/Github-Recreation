@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<span class="mega-octicon octicon-mark-github"></span>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header class='topbar col-md-12'>
+			<ul>
+				<li><i class="fa fa-github" aria-hidden="true"></i></li>
+				<li><input placeholder="Search Github" id='searchbar'></li>
+			</ul>
+			<nav>
+				<ul>
+					<li>Explore</li>
+					<li>Gist</li>
+					<li>Blog</li>
+					<li>Help</li>
+				</ul>
+			</nav>
+			<ul>
+				<li><img id='topImg' src='https://help.github.com/assets/images/help/profile/identicon.png'></li>
+				<li class='login'>calweb</li>
+				<li><i class="fa fa-plus" aria-hidden="true"></i></li>
+				<li><i class="fa fa-caret-down" aria-hidden="true"></i></li>
+				<li><i class="fa fa-inbox" aria-hidden="true"></i></li>
+				<li><i class="fa fa-cog" aria-hidden="true"></i></li>
+				<li><i class="fa fa-sign-out" aria-hidden="true"></i></li>
+			</ul>
+		</header>
+		<div class="container">
+			<article class='left col-md-3'>
+				<img id='profilePic' src='#'>
+				<h3 id='name'>Calvin Webster</h3>
+				<h5 class='login'>calweb</h5>
+				<div class='occupation'>
+					<h5>Developer Program Member</h5>
+				</div>
+				<div class='info'>
+					<ul id='infoList'>
+						<li id="company">The Iron Yard</li>
+						<li id="location">Cincinatti, Ohio</li>
+						<li id='dateCreated'>Joined on Feb 23, 2017</li>
+					</ul>
+				</div>
+				<div class='activity'>
+					<div id='followers'>
+						<h2 id='followersNum'>93</h2>
+						<h6>Followers</h6>
+					</div>
+					<div id='stars'>
+						<h2 id='starsNum'>66</h2>
+						<h6>Starred</h6>
+					</div>
+					<div id='following'>
+						<h2 id='followingNum'>106</h2>
+						<h6>Following</h6>
+					</div>
+				</div>
+				<div class='organizations'>
+					<h4>Organizations</h4>
+					<ul id='orgList'>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+						<li><img src='#'></li>
+					</ul>
+				</div>
+			</article>
+			<div class='right col-md-9'>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				<button id='editProf'>Edit Profile</button>
+					<li role="presentation" class="active"><a href="#repos" aria-controls="home" role="tab" data-toggle="tab">Repositories</a></li>
+					<li role="presentation"><a href="#events" aria-controls="profile" role="tab" data-toggle="tab">Public Activity</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="repos">
+						<div class='repoTopContainer'>
+				<input id='findRepo' placeholder='Find a repository...'>
+				<button id='search'>Search</button>
+				<nav class='reposTopBar'>
+				<ul>
+				<li>All</li>
+				<li>Public</li>
+				<li>Private</li>
+				<li>Sources</li>
+				<li>Forks</li>
+				<li>Mirrors</li>
+				</ul>
+				<button id='new'>New</button>
+				</nav>
+				</div>
+
+					</div>
+					<div role="tabpanel" class="tab-pane" id="events"></div>
+				</div>
+			</div>
+		</div>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+</html>

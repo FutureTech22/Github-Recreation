@@ -1,0 +1,197 @@
+.topbar {
+    background-color: rgb(245, 245, 245);
+    border-bottom: 2px solid rgb(225, 225, 225);
+    height: 50px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    input {
+        width: 27%;
+        margin-top: 8px;
+    }
+    ul {
+        display: inline;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    nav {
+        display: inline;
+        margin-right: 29%;
+    }
+    li {
+        display: inline;
+        margin-right: 1%;
+    }
+}
+
+.nav-tabs {
+    display: inline;
+    #editProf {
+        background: linear-gradient(rgb(249, 249,249), rgb(231, 231, 231));
+        border: 2px solid rgb(221,221,221);
+        float: right;
+        height: 25px;
+        width: 150px;
+    }
+}
+
+#topImg {
+    height: 20px;
+    width: 20px;
+}
+
+.fa-github {
+    font-size: 40px;
+    float: left;
+    margin-right: 1%;
+}
+
+.left {
+    #profilePic {
+        height: 171px;
+        width: 171px;
+    }
+    li {
+        display: block;
+    }
+}
+
+.occupation {
+    border-bottom: 1px solid rgb(241, 241, 241);
+    border-top: 1px solid rgb(241, 241, 241);
+}
+
+.info {
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+.activity {
+    border-bottom: 1px solid rgb(241, 241, 241);
+    h2{
+        color:rgb(103, 148, 196);
+    }
+}
+
+
+#followers,
+#stars,
+#following {
+    display: inline-block;
+    margin-right: 4%;
+    text-align: center;
+}
+
+#followersNum {
+    text-align: center;
+}
+
+#starNum {
+    text-align: center;
+}
+
+.organizations {
+    display: inline;
+}
+
+#orgList {
+    display: inline;
+    padding-left: 0px;
+    img {
+        width: 54px;
+        height: 54px;
+    }
+    li {
+        display: inline-block;
+    }
+}
+
+.events {
+    border-bottom: 1px solid rgb(241, 241, 241);
+    #login {
+        display: inline;
+        color: rgb(103, 148, 196);
+    }
+    #reponame {
+        color: rgb(103, 148, 196);
+        display: inline;
+    }
+    #created_at {
+        display: inline;
+    }
+    #ref {
+        color: rgb(103, 148, 196);
+        display: inline;
+    }
+    #commits {
+        color: rgb(103, 148, 196);
+        display: inline;
+    }
+    #sha {
+        display: inline;
+    }
+}
+#findRepo{
+     border: 2px solid rgb(241, 241, 241);
+     width: 230px;
+}
+
+
+#search{
+    border: 2px solid rgb(241, 241, 241);
+    background: linear-gradient(rgb(249, 249,249), rgb(231, 231, 231));
+}
+
+.repoTopContainer {
+    border-bottom: 1px solid rgb(241, 241, 241);
+    border-top: 1px solid rgb(241, 241, 241);
+}
+
+.reposTopBar {
+    display: inline;
+    
+    ul {
+        display: inline;
+    }
+    li {
+        display: inline;
+        color: rgb(103, 148, 196);
+        margin-right: 5px;
+    }
+    button#new {
+        display: inline;
+        margin-left: 16%;
+        width: 60px;
+        height: 35px;
+        background: linear-gradient(rgb(131, 167, 84), rgb(171, 209, 121));
+        border: none;
+        color:white;
+    }
+}
+
+.repos {
+    border-bottom: 1px solid rgb(241, 241, 241);
+    #name {
+        color: rgb(103, 148, 196);
+        display: inline;
+        margin-right: 35%;
+    }
+    #time {
+        color: rgb(169, 169, 169);
+    }
+    #language {
+        color: rgb(153, 157, 164);
+        display: inline;
+        float: right;
+    }
+    #stargazers {
+        color: rgb(153, 157, 164);
+        display: inline;
+        float: right;
+        margin-left: 10px;
+    }
+    #forks {
+        color: rgb(153, 157, 164);
+        display: inline;
+        float: right;
+        margin-left: 10px;
+    }
+}
